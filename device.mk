@@ -209,9 +209,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
-PRODUCT_TAGS += \
-	dalvik.gc.type-precise
-
 PRODUCT_PACKAGES += \
 	com.android.future.usb.accessory
 
@@ -238,8 +235,6 @@ PRODUCT_PACKAGES += \
 	libOMX.TI.DUCATI1.VIDEO.DECODER.secure \
 	libOMX.TI.DUCATI1.VIDEO.CAMERA \
 	libOMX.TI.DUCATI1.MISC.SAMPLE \
-	libstagefrighthw \
-	libI420colorconvert \
 	libtiutils_$(TARGET_BOOTLOADER_BOARD_NAME)
 
 # Needed for gralloc

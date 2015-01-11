@@ -97,9 +97,6 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 # Enable dex-preoptimization to speed up first boot sequence
 WITH_DEXPREOPT := true
 
-# No sync framework for this device...
-TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
-
 # Needed for RIL
 TARGET_NEEDS_BIONIC_MD5 := true
 
