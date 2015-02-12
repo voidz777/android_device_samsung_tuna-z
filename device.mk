@@ -217,6 +217,13 @@ PRODUCT_PACKAGES += \
 	e2fsck \
 	setup_fs
 
+# F2FS filesystem
+PRODUCT_PACKAGES += \
+	mkfs.f2fs \
+	fsck.f2fs \
+	fibmap.f2fs \
+	f2fstat
+
 # TI OMAP4
 PRODUCT_PACKAGES += \
 	libion_ti \
