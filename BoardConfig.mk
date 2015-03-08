@@ -52,6 +52,9 @@ TARGET_KERNEL_CONFIG := cyanogenmod_tuna_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/tuna
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7
 
+# Use dlmalloc
+MALLOC_IMPL := dlmalloc
+
 # EGL
 USE_OPENGL_RENDERER := true
 
